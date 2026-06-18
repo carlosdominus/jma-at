@@ -79,11 +79,11 @@ const Library: React.FC<LibraryProps> = ({ navigate }) => {
           <input 
             type="text" 
             placeholder="Buscar conteúdo..." 
-            className="w-full pl-12 pr-4 py-4 rounded-2xl border border-neutral-100 focus:outline-none focus:ring-2 focus:ring-amber-200 transition-shadow bg-white text-xs font-semibold shadow-xs"
+            className="w-full pl-12 pr-4 py-4 rounded-2xl border border-neutral-100 focus:outline-none focus:ring-2 focus:ring-amber-200 transition-shadow bg-white text-base font-semibold shadow-xs"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
           />
-          <svg className="w-5 h-5 absolute left-4 top-4 text-neutral-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2.5"><path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+          <svg className="w-5 h-5 absolute left-4 top-4.5 text-neutral-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2.5"><path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
         </div>
 
         {/* Categories */}

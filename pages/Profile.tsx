@@ -137,7 +137,7 @@ const Profile: React.FC<ProfileProps> = ({
                   type="text" 
                   value={tempName} 
                   onChange={e => setTempName(e.target.value)}
-                  className="w-full px-4 py-3 text-xs font-bold rounded-2xl bg-neutral-50 border border-neutral-100 focus:outline-none focus:border-amber-400 focus:bg-white text-neutral-800 transition-all"
+                  className="w-full px-4 py-3 text-base font-bold rounded-2xl bg-neutral-50 border border-neutral-100 focus:outline-none focus:border-amber-400 focus:bg-white text-neutral-800 transition-all"
                   required
                 />
               </div>
@@ -148,7 +148,7 @@ const Profile: React.FC<ProfileProps> = ({
                   type="tel" 
                   value={tempPhone} 
                   onChange={e => setTempPhone(e.target.value)}
-                  className="w-full px-4 py-3 text-xs font-bold rounded-2xl bg-neutral-50 border border-neutral-100 focus:outline-none focus:border-amber-400 focus:bg-white text-neutral-800 transition-all"
+                  className="w-full px-4 py-3 text-base font-bold rounded-2xl bg-neutral-50 border border-neutral-100 focus:outline-none focus:border-amber-400 focus:bg-white text-neutral-800 transition-all"
                 />
               </div>
 
@@ -158,7 +158,7 @@ const Profile: React.FC<ProfileProps> = ({
                   type="email" 
                   value={tempEmail} 
                   onChange={e => setTempEmail(e.target.value)}
-                  className="w-full px-4 py-3 text-xs font-bold rounded-2xl bg-neutral-50 border border-neutral-100 focus:outline-none focus:border-amber-400 focus:bg-white text-neutral-800 transition-all"
+                  className="w-full px-4 py-3 text-base font-bold rounded-2xl bg-neutral-50 border border-neutral-100 focus:outline-none focus:border-amber-400 focus:bg-white text-neutral-800 transition-all"
                   required
                 />
               </div>

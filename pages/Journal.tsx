@@ -70,7 +70,7 @@ const Journal: React.FC<JournalProps> = ({ manifestations, onAdd, navigate }) =>
             <label className="text-xs font-bold text-neutral-400 uppercase">O que aconteceu?</label>
             <textarea 
               autoFocus
-              className="w-full p-4 rounded-2xl bg-neutral-50 border border-neutral-100 focus:outline-none focus:ring-2 focus:ring-amber-200"
+              className="w-full p-4 rounded-2xl bg-neutral-50 border border-neutral-100 focus:outline-none focus:ring-2 focus:ring-amber-200 text-base"
               placeholder="Ex: Recebi um bônus inesperado no trabalho..."
               rows={3}
               value={description}
@@ -82,7 +82,7 @@ const Journal: React.FC<JournalProps> = ({ manifestations, onAdd, navigate }) =>
             <div className="space-y-2">
               <label className="text-xs font-bold text-neutral-400 uppercase">Categoria</label>
               <select 
-                className="w-full p-4 rounded-2xl bg-neutral-50 border border-neutral-100 focus:outline-none"
+                className="w-full p-4 rounded-2xl bg-neutral-50 border border-neutral-100 focus:outline-none text-base"
                 value={category}
                 onChange={(e) => setCategory(e.target.value)}
               >
@@ -98,7 +98,7 @@ const Journal: React.FC<JournalProps> = ({ manifestations, onAdd, navigate }) =>
               <label className="text-xs font-bold text-neutral-400 uppercase">Valor (Opcional)</label>
               <input 
                 type="number"
-                className="w-full p-4 rounded-2xl bg-neutral-50 border border-neutral-100 focus:outline-none"
+                className="w-full p-4 rounded-2xl bg-neutral-50 border border-neutral-100 focus:outline-none text-base"
                 placeholder="0.00"
                 value={value}
                 onChange={(e) => setValue(e.target.value)}

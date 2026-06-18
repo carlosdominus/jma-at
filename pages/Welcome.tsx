@@ -114,7 +114,7 @@ const Welcome: React.FC<WelcomeProps> = ({
                   if (e.target.value.trim()) setErrorMsg('');
                 }}
                 placeholder="Ex Carlos Mendes Silva"
-                className="w-full px-4 py-3 bg-neutral-50 border border-neutral-100 rounded-2xl text-xs font-bold focus:outline-none focus:border-amber-400 focus:bg-white shadow-xs transition-all text-neutral-800"
+                className="w-full px-4 py-3 bg-neutral-50 border border-neutral-100 rounded-2xl text-base font-bold focus:outline-none focus:border-amber-400 focus:bg-white shadow-xs transition-all text-neutral-800"
                 required
               />
             </div>
@@ -129,7 +129,7 @@ const Welcome: React.FC<WelcomeProps> = ({
                   if (e.target.value.trim()) setErrorMsg('');
                 }}
                 placeholder="Ex (11) 99999-9999"
-                className="w-full px-4 py-3 bg-neutral-50 border border-neutral-100 rounded-2xl text-xs font-bold focus:outline-none focus:border-amber-400 focus:bg-white shadow-xs transition-all text-neutral-800"
+                className="w-full px-4 py-3 bg-neutral-50 border border-neutral-100 rounded-2xl text-base font-bold focus:outline-none focus:border-amber-400 focus:bg-white shadow-xs transition-all text-neutral-800"
                 required
               />
             </div>
@@ -144,7 +144,7 @@ const Welcome: React.FC<WelcomeProps> = ({
                   if (e.target.value.trim().includes('@')) setErrorMsg('');
                 }}
                 placeholder="Ex seu-email@exemplo.com"
-                className="w-full px-4 py-3 bg-neutral-50 border border-neutral-100 rounded-2xl text-xs font-bold focus:outline-none focus:border-amber-400 focus:bg-white shadow-xs transition-all text-neutral-800"
+                className="w-full px-4 py-3 bg-neutral-50 border border-neutral-100 rounded-2xl text-base font-bold focus:outline-none focus:border-amber-400 focus:bg-white shadow-xs transition-all text-neutral-800"
                 required
               />
             </div>

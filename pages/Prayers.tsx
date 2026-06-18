@@ -306,9 +306,9 @@ const Prayers: React.FC<PrayersProps> = ({ navigate }) => {
           placeholder="Buscar oração, arcanjo ou santo..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          className="w-full pl-11 pr-4 py-3 bg-white border border-neutral-100 rounded-2xl text-xs font-semibold focus:outline-none focus:border-amber-400 shadow-xs"
+          className="w-full pl-11 pr-4 py-3 bg-white border border-neutral-100 rounded-2xl text-base font-semibold focus:outline-none focus:border-amber-400 shadow-xs"
         />
-        <svg className="w-4 h-4 text-neutral-400 absolute left-4 top-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+        <svg className="w-4 h-4 text-neutral-400 absolute left-4 top-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
       </div>
 
       {/* Categories Pills tab */}
