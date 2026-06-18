@@ -21,7 +21,10 @@ const PDF_TITLES: { [key: string]: string } = {
   'cadeadas/Santo-Expedito-A-Forca-na-Urgencia.pdf': 'Santo Expedito',
   'cadeadas/Sao-Jorge-O-Poder-da-Fe-e-da-Protecao.pdf': 'São Jorge Guerreiro',
   'cadeadas/O-Caminho-da-Prosperidade-de-Silvio-Santos.pdf': 'O Caminho da Prosperidade',
-  'cadeadas/Um-Legado-de-Amor-e-Fe-Protegendo-Nossos-Filhos.pdf': 'Legado de Amor e Fé - Proteção dos Filhos'
+  'cadeadas/Um-Legado-de-Amor-e-Fe-Protegendo-Nossos-Filhos.pdf': 'Legado de Amor e Fé - Proteção dos Filhos',
+  'outros/a%20verdade%20da%20prosperidade%20-%20como%20as%20frequencias%20elevadas%20transformam%20sua%20realidade%20financeira.pdf': 'A Verdade da Prosperidade',
+  'outros/o%20que%20sao%20frequencias%20e%20como%20elas%20afetam%20sua%20vida.pdf': 'O que são Frequências e seus Efeitos',
+  'outros/o%20segredo%20por%20tras%20dos%20canticos%20e%20louvores%20-%20frequencias%20que%20transformam%2520realidades.pdf': 'O Segredo por trás dos Cânticos'
 };
 
 const PdfViewer: React.FC<PdfViewerProps> = ({ pdfUrl, navigate }) => {

@@ -124,6 +124,117 @@ export const LIBRARY_ITEMS: LibraryItem[] = [
     subtitle: 'Estudo Teológico sobre Milagres e Cura',
     type: ContentType.PDF,
     embedUrl: 'O-Codigo-de-Lourdes.pdf'
+  },
+  {
+    id: 'canto-saude',
+    title: 'Cântico da Saúde Divina',
+    subtitle: 'Restauração Física e Harmonia Mental',
+    type: ContentType.AUDIO,
+    duration: '09:40',
+    plays: 1823,
+    audioUrl: 'https://novidadesdeagora.site/jma/app/audios/cantodasaude.mp3',
+    embedUrl: 'https://novidadesdeagora.site/jma/app/audios/cantodasaude.mp3'
+  },
+  {
+    id: 'canto-sagrado-852',
+    title: 'Cântico Sagrado - 852 Hz',
+    subtitle: 'Despertar da Intuição e Ordem Divina',
+    type: ContentType.AUDIO,
+    duration: '11:15',
+    plays: 1254,
+    audioUrl: 'https://novidadesdeagora.site/jma/app/audios/cantosagrado852.mp3',
+    embedUrl: 'https://novidadesdeagora.site/jma/app/audios/cantosagrado852.mp3'
+  },
+  {
+    id: 'canto-sagrado-741',
+    title: 'Cântico Sagrado - 741 Hz',
+    subtitle: 'Despertar Espiritual e Purificação de Energias',
+    type: ContentType.AUDIO,
+    duration: '12:00',
+    plays: 1478,
+    audioUrl: 'https://novidadesdeagora.site/jma/app/audios/cantosagrado741.mp3',
+    embedUrl: 'https://novidadesdeagora.site/jma/app/audios/cantosagrado741.mp3'
+  },
+  {
+    id: 'canto-sagrado-639',
+    title: 'Cântico Sagrado - 639 Hz',
+    subtitle: 'Harmonização de Conexões e Amor Cósmico',
+    type: ContentType.AUDIO,
+    duration: '10:50',
+    plays: 1120,
+    audioUrl: 'https://novidadesdeagora.site/jma/app/audios/cantosagrado639.mp3',
+    embedUrl: 'https://novidadesdeagora.site/jma/app/audios/cantosagrado639.mp3'
+  },
+  {
+    id: 'prosperidade-audio',
+    title: 'Frequência de Prosperidade Absoluta',
+    subtitle: 'Atração de Caminhos Abertos e Bênçãos',
+    type: ContentType.AUDIO,
+    duration: '08:35',
+    plays: 1965,
+    audioUrl: 'https://novidadesdeagora.site/jma/app/audios/prosperidade.mp3',
+    embedUrl: 'https://novidadesdeagora.site/jma/app/audios/prosperidade.mp3'
+  },
+  {
+    id: 'multivibracional-prosperidade',
+    title: 'Prosperidade Multivibracional',
+    subtitle: 'Sintonização Espiritual de Fartura e Graça',
+    type: ContentType.AUDIO,
+    duration: '09:12',
+    plays: 1540,
+    audioUrl: 'https://novidadesdeagora.site/jma/app/audios/multivibracionalprosperidade.mp3',
+    embedUrl: 'https://novidadesdeagora.site/jma/app/audios/multivibracionalprosperidade.mp3'
+  },
+  {
+    id: 'canto-sagrado-963',
+    title: 'Cântico Sagrado - 963 Hz (Alta Sintonização)',
+    subtitle: 'Conexão Superior com a Presença dos Anjos',
+    type: ContentType.AUDIO,
+    duration: '13:02',
+    plays: 2310,
+    audioUrl: 'https://novidadesdeagora.site/jma/app/audios/cantosagrado963.mp3',
+    embedUrl: 'https://novidadesdeagora.site/jma/app/audios/cantosagrado963.mp3'
+  },
+  {
+    id: 'canto-sagrado-528',
+    title: 'Cântico Sagrado - 528 Hz',
+    subtitle: 'Milagres, Transformação e Cura Profunda',
+    type: ContentType.AUDIO,
+    duration: '10:15',
+    plays: 1884,
+    audioUrl: 'https://novidadesdeagora.site/jma/app/audios/cantosagrado528.wav',
+    embedUrl: 'https://novidadesdeagora.site/jma/app/audios/cantosagrado528.wav'
+  },
+  {
+    id: 'canto-padre-pio',
+    title: 'Cântico Sagrado do Padre Pio',
+    subtitle: 'Melodia Devocional para Elevação e Amparo Celestial',
+    type: ContentType.AUDIO,
+    duration: '04:52',
+    plays: 3105,
+    audioUrl: 'https://novidadesdeagora.site/jma/app/audios/Canto%20do%20Padre%20Pio.mp3',
+    embedUrl: 'https://novidadesdeagora.site/jma/app/audios/Canto%20do%20Padre%20Pio.mp3'
+  },
+  {
+    id: 'verdade-prosperidade-pdf',
+    title: 'A Verdade da Prosperidade',
+    subtitle: 'Como as frequências elevadas transformam sua realidade financeira',
+    type: ContentType.PDF,
+    embedUrl: 'outros/a%20verdade%20da%20prosperidade%20-%20como%20as%20frequencias%20elevadas%20transformam%20sua%20realidade%20financeira.pdf'
+  },
+  {
+    id: 'o-que-sao-frequencias-pdf',
+    title: 'O Que São Frequências?',
+    subtitle: 'Como elas afetam sua vida, energia e sintonia no dia a dia',
+    type: ContentType.PDF,
+    embedUrl: 'outros/o%20que%20sao%20frequencias%20e%20como%20elas%20afetam%20sua%20vida.pdf'
+  },
+  {
+    id: 'segredo-canticos-pdf',
+    title: 'O Segredo por Trás dos Cânticos e Louvores',
+    subtitle: 'Frequências extraordinárias que transformam realidades e restauram corações',
+    type: ContentType.PDF,
+    embedUrl: 'outros/o%20segredo%20por%20tras%20dos%20canticos%20e%20louvores%20-%20frequencias%20que%20transformam%2520realidades.pdf'
   }
 ];
 
