@@ -1,0 +1,9 @@
+{
+  "name": "Remix: Jornada com Meu Anjo",
+  "description": "Um programa espiritual de prosperidade baseado no Canto Sagrado de São Miguel Arcanjo e ensinamentos do Padre Pio, projetado para transformar sua conexão divina e financeira.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": []
+}
